@@ -40,6 +40,19 @@
 ------------------------------------------------------------------------------------------
 
 
+- 최초1회만
+  만약, 프로젝트를 먼저 작업하다가, git를 사용한 경우
+  1) git clone을 다른 위치에서 수행
+  2) clone를 통해 만들어진 위치에 먼저 만들어진 프로젝트 내용 이동
+  3) vs code에서 commit , push 작업 진행
+  4) 단, 최초 수행시 git 오류가 나올 수 있고, 이 경우
+   $ git config --global user.name "jahyunlee"
+   $ git config --global user.email "jahyun517@naver.com"
+   1회 수행해 주면( 현재 pjt위치에서 ) 처리된다
+  5) 앞으로는 clone 한 프로젝트 위치가 실제 작업할 곳이 된다
+  6) // 전체 프로젝트 리드미 수정 -> commit changes : + 
+
+   // 아침에 push pull 퇴근할때 push하기
 
 
 
